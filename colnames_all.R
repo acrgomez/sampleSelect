@@ -1,3 +1,6 @@
+##colnames pulled directly from the old system
+##many of them were maintained but this is not up to date and should not be used w/o verification
+
 colss<-c("Admit_Date","AdmitLatLong_ActEst","Age_Class","ATOS","Body_of_Water","BornInRehab","Common_Name","Disposition",
 "FirstObs","Genus","Lat_Long_Valid","LatLong_Determinded","Lock","LockDisplay","Mass_Stranding","MassStrandRef",
 "MMC_ID","Mother_ID","Name","Name_Definition_Explanation","Name_Fundraising_Only","NMFS_Disp_Form","NMFS_NDB",

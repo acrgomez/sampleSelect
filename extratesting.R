@@ -1,3 +1,5 @@
+#2017 final list consistency test
+
 urilist <- read.csv("~/Google Drive/Sample_select/april2017/urine.csv")
 
 

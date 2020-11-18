@@ -1,4 +1,6 @@
 setwd("~/Dropbox/Sample Selection/")
+
+###This code is for a specific sample pull request by Katie Prager
 require(dplyr)
 require(lubridate)
 options(stringsAsFactors = FALSE)

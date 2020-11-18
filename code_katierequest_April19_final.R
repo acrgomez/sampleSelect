@@ -241,34 +241,29 @@ write.csv(pcr,"~/Desktop/finalPCRlist.csv",row.names=F)
 
 
 
+###########a few manual verifications
 
-
-
-
-
-
-
-
-
-
-
-filter(serum,Animal..TMMC_ID == "CSL-13888")
-
-filter(bloodData,Animal..TMMC_ID == "CSL-13836")
-
-filter(merg,ID=="CSL-8079")
-
-
-filter(bloodData,Animal..TMMC_ID == "CSL-10073")
-
-
-require(ggplot2)
-
-mini$SinceAdmit <- as.numeric(as.Date(mini$SampleDateChem)-as.Date(mini$AdmitDate))
-mini2 <- filter(mini,SinceAdmit <30)
-ggplot(mini2)+
-    geom_point(aes(x=BUN,y=CREAT,color=LeptoCode),pch=3)+
-    ylim(c(0,30))+
-    xlim(c(0,600))+
-    #scale_color_viridis()+
-    theme_classic()
+# 
+# 
+# 
+# 
+# filter(serum,Animal..TMMC_ID == "CSL-13888")
+# 
+# filter(bloodData,Animal..TMMC_ID == "CSL-13836")
+# 
+# filter(merg,ID=="CSL-8079")
+# 
+# 
+# filter(bloodData,Animal..TMMC_ID == "CSL-10073")
+# 
+# 
+# require(ggplot2)
+# 
+# mini$SinceAdmit <- as.numeric(as.Date(mini$SampleDateChem)-as.Date(mini$AdmitDate))
+# mini2 <- filter(mini,SinceAdmit <30)
+# ggplot(mini2)+
+#     geom_point(aes(x=BUN,y=CREAT,color=LeptoCode),pch=3)+
+#     ylim(c(0,30))+
+#     xlim(c(0,600))+
+#     #scale_color_viridis()+
+#     theme_classic()
